@@ -23,12 +23,12 @@ function App() {
             element={<SearchBooks />} 
           />
           <Route 
-            path='/saved' 
+            path='/SavedBooks' 
             element={<SavedBooks />} 
           />
           <Route 
             path='*'
-            element={<h1 className='display-2'>Wrong page!</h1>}
+            element={<NotFound />}
           />
         </Routes>
       </div>
