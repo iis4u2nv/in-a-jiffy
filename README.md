@@ -24,9 +24,7 @@ To complete the assignment, you’ll need to do the following:
 ## User Story
 
 ```md
-AS AN avid reader
-I WANT to search for new books to read
-SO THAT I can keep a list of books to purchase
+As I'm building the "in-a-jiffy" application this week, my goal is to make it easy for avid readers to search for new books to read and keep a list to purchase later.
 ```
 
 
