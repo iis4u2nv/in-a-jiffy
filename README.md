@@ -1,5 +1,7 @@
 # in-a-jiffy
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+
 As a voracious reader, I'm always browsing for new books to add to my to-read list.
 
 ## Your Task
