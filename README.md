@@ -30,9 +30,9 @@ SO THAT I can keep a list of books to purchase
 
 ## Description
 
-```md
+
 Presume as a user, you want to be able to search for books on the book search engine homepage so that you can easily find the books you are looking for. You will be presented with a menu of the options "Search for Books" and "Login/Signup", as well as an input field to search for books and a submit button.
-```
+
 
 
 ## Mock-Up
