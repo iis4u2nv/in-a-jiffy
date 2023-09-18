@@ -31,7 +31,7 @@ SO THAT I can keep a list of books to purchase
 ## Description
 
 
-Presume as a user, you want to be able to search for books on the book search engine homepage so that you can easily find the books you are looking for. You will be presented with a menu of the options "Search for Books" and "Login/Signup", as well as an input field to search for books and a submit button.
+Presume as a user, you want to be able to search for books on the book search engine homepage so that you can easily find the books you are looking for. You will be presented with a menu of the options "Search for Books" and "Login/Signup", as well as an input field to search for books and a submit button. By clicking on the Search for Books menu option you will be presented with an input field to search for books and a submit button. As you are logged out and enter a search term in the input field and click the submit button there will be several search results.
 
 
 
