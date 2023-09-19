@@ -17,7 +17,11 @@ Lastly, if you click the Logout button, you will be logged out of the site and r
 
 ## Mock-Up
 
-Let's start by revisiting the web application's appearance and functionality.
+This application was created using a starter code with a fully functioning Google Books API search engine built with a RESTful API.
+Now it has been converted to be a GraphQL API built with Apollo Server.
+The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API
+
+Here is the web application's appearance and functionality.
 
 As you can see in the following animation, a user can type a search term (in this case, "star wars") in a search box and the results appear:
 
@@ -27,20 +31,13 @@ The user can save books by clicking "Save This Book!" under each search result, 
 
 ![Animation shows user clicking "Save This Book!" button to save books that appear in search results. The button label changes to "Book Already Saved" after it is clicked and the book is saved.](./Assets/21-mern-homework-demo-02.gif)
 
-A user can view their saved books on a separate page, as shown in the following animation:
+The user can view their saved books on a separate page, as shown in the following animation:
 
 ![The Viewing Lernantino's Books page shows the books that the user Lernaninto has saved.](./Assets/21-mern-homework-demo-03.gif)
 
-
-## Getting Started
-
-In order for this application to use a GraphQL API, you’ll need to refactor the API to use GraphQL on the back end and add some functionality to the front end. The following sections contain details about the files you’ll need to modify on the back end and the front end.
-
-**Important**: Make sure to study the application before building upon it. Better yet, start by making a copy of it. It's already a working application&mdash;you're converting it from RESTful API practices to a GraphQL API.
-
 ### Back-End Specifications
 
-You’ll need to complete the following tasks in each of these back-end files:
+Completed the following tasks in each of these back-end files:
 
 * `auth.js`: Update the auth middleware function to work with the GraphQL API.
 
@@ -105,7 +102,7 @@ You’ll need to complete the following tasks in each of these back-end files:
 
 ### Front-End Specifications
 
-You'll need to create the following front-end files:
+Created the following front-end files:
 
 * `queries.js`: This will hold the query `GET_ME`, which will execute the `me` query set up using Apollo Server.
 
@@ -119,7 +116,7 @@ You'll need to create the following front-end files:
 
 	* `REMOVE_BOOK` will execute the `removeBook` mutation.
 
-Additionally, you’ll need to complete the following tasks in each of these front-end files:
+Additionally, completed the following tasks in each of these front-end files:
 
 * `App.js`: Create an Apollo Provider to make every request work with the Apollo Server.
 	
