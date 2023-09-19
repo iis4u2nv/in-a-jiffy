@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   Container,
   Col,
@@ -7,8 +7,9 @@ import {
   Card,
   Row
 } from 'react-bootstrap';
-
-import Auth from '../utils/auth';
+import { useQuery } from '@apollo/client';
+import { QUERY_GETME } from '..utils/queries';
+import { Auth } from '../utils/auth';
 import { saveBook, searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
@@ -26,6 +27,11 @@ const SearchBooks = () => {
   useEffect(() => {
     return () => saveBookIds(savedBookIds);
   });
+
+  const getMe =() => {
+    const { loading, data } = useQuery(QUERY_GETME);
+    const me = data?.me || [];
+  }
 
   // create method to search for books and set state on form submit
   const handleFormSubmit = async (event) => {
