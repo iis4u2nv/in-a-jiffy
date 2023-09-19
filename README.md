@@ -15,10 +15,6 @@ When you're logged in to the site, the menu options change to Search for Books, 
 If you click on the option to see your saved books, you will see a list of all the books you have saved to your account, and you will be able to remove any book from the list by clicking the Remove button.
 Lastly, if you click the Logout button, you will be logged out of the site and returned to the login page.
 
-
-
-
-
 ## Mock-Up
 
 Let's start by revisiting the web application's appearance and functionality.
