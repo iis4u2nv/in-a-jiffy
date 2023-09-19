@@ -2,23 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
-## Task
-
-Your assignment this week is emblematic of the fact that most modern websites are driven by two things: data and user demands. This shouldn't come as a surprise, as the ability to personalize user data is the cornerstone of real-world web development today. And as user demands evolve, applications need to be more performant.
-
-This week, you’ll take starter code with a fully functioning Google Books API search engine built with a RESTful API, and refactor it to be a GraphQL API built with Apollo Server. The app was built using the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API. It's already set up to allow users to save book searches to the back end. 
-
-By doing following:
-
-1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
-
-2. Modify the existing authentication middleware so that it works in the context of a GraphQL API.
-
-3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
-
-4. Deploy your application to Heroku with a MongoDB database using MongoDB Atlas. Use the [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) walkthrough for instructions.
-
-
 ## The Story
 
 As I'm building the "in-a-jiffy" application this week, my goal is to make it easy for avid readers to search for new books to read and keep a list to purchase.
@@ -26,7 +9,13 @@ As I'm building the "in-a-jiffy" application this week, my goal is to make it ea
 ## Description
 
 
-Presume as a user, you want to be able to search for books on the book search engine homepage so that you can easily find the books you are looking for. You will be presented with a menu of the options "Search for Books" and "Login/Signup", as well as an input field to search for books and a submit button. By clicking on the Search for Books menu option you will be presented with an input field to search for books and a submit button. As you are logged out and enter a search term in the input field and click the submit button there will be several search results.
+Presume as a user, you want to be able to search for books on the book search engine homepage so that you can easily find the books you are looking for. You will be presented with a menu of the options "Search for Books" and "Login/Signup", as well as an input field to search for books and a submit button. By clicking on the Search for Books menu option you will be presented with an input field to search for books and a submit button. As you are logged out and enter a search term in the input field and click the submit button there will be several search results, each featuring a book’s title, author, description, image, and a link to that book on the Google Books site. If you click on the Login/Signup menu option, a modal appears on the scrren with a toggle between the option to log in or sign up. Similarly, if the toggle is set to Signup, then you will be presented with three inputs for a username, an email address, and a password, as well as a signup button.
+Furthermore, if the toggle is set to Login, then you will be presented with two inputs for an email address and a password, as well as a login button. If you enter a valid email address and create a password and click on the signup button, then your user account is created and you're logged in to the site. Then, if you enter your account's email address and password and click on the login button, the modal closes and you're logged in to the site.
+When you're logged in to the site, the menu options change to Search for Books, an option to see your saved books, and Logout. If you're logged in, you can search for books and save the information of the books you like to your account.
+If you click on the option to see your saved books, you will see a list of all the books you have saved to your account, and you will be able to remove any book from the list by clicking the Remove button.
+Lastly, if you click the Logout button, you will be logged out of the site and returned to the login page.
+
+
 
 
 
