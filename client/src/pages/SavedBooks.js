@@ -11,7 +11,7 @@ import Auth from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 import { QUERY_GETME } from '../utils/queries';
 import {REMOVE_BOOK } from '../utils/mutations';
-const SavedBooks = (_id, username, email) => {
+const SavedBooks = () => {
   //   const [formState, setFormState] = useState({ email: '', password: '' });
   // const [removeBook, { error, data }] = useMutation(REMOVE_BOOK);
   // 
