@@ -2,7 +2,7 @@ const { User, Book } = require('../models');
 
 const resolvers = {
   Query: {
-    user: async () => {
+    me: async () => {
       return User.find({});
     },
     book: async (parent, { _id }) => {
@@ -34,7 +34,7 @@ const resolvers = {
         return { token, user };
       },
   
-    savebook: async (parent, args, context) => {
+    saveBook: async (parent, args, context) => {
       const user = await User.findOneAndUpdate(
       { _id: context.user._id },
       { $push: { savedBooks: bookData } },
