@@ -7,7 +7,7 @@ import {
   Col
 } from 'react-bootstrap';
 import { useMutation, useQuery } from '@apollo/client';
-import  Auth  from '../utils/auth';
+import { Auth }  from '../utils/auth';
 import { removeBookId } from '../utils/localStorage';
 import { QUERY_GETME } from '../utils/queries';
 import {REMOVE_BOOK } from '../utils/mutations';
